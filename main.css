@@ -1,0 +1,56 @@
+body {  
+    font-family: Arial;  
+    background-color: #f0f0f0;  
+    margin: 0;  
+    padding: 3px;  
+}  
+h1{
+    color: #00796b;
+}  
+h2 {  
+    background-color: #e0f7fa; /* Màu nền xanh nhạt */  
+    border: 1px solid #4dd0e1; /* Viền xanh */  
+    padding: 10px; /* Khoảng cách bên trong */   
+    color: #00796b; /* Màu chữ */   
+}
+.container {  
+    background-color: white;  
+    border-radius: 8px;  /* Giúp bo góc của web*/
+    padding: 20px;
+    position: relative; /* Tác dụng để giúp định dạng đúng hình ảnh trong container */  
+}
+img {  
+    max-width: 100%;  
+    height: auto;   
+    position: absolute; /* Giúp tùy ý chỉnh sửa vị trí của ảnh */  
+    top: 98px; /* Khoảng cách từ trên */  
+    right: 20px; /* Khoảng cách từ bên phải */  
+} 
+table {  
+    /*width: 100%;  */ 
+    border: 2px solid black;
+    border-collapse: collapse;  
+    margin: 20px 0;
+    font-weight: bolder; 
+} 
+th{ 
+    text-align: center;
+    vertical-align: middle; 
+    border: 2px solid black;  
+    padding: 8px;    
+}
+td{
+    border: 2px solid black;  
+    padding: 8px;  
+    text-align:left;  
+}
+.backgr{
+    background-color: rgb(221, 219, 218);
+}
+.colortext1 {  
+    color: blue;  
+}  
+
+.colortext2 {  
+    color: #4dd0e1; 
+}     
