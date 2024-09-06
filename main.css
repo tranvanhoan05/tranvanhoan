@@ -53,4 +53,14 @@ td{
 
 .colortext2 {  
     color: #4dd0e1; 
+}
+.textred {
+    color: red;
+}
+.submit-section {  
+    margin-top: 20px;  
+}  
+.note {
+    font-size: 0.9em;
+    color: gray;
 }     
