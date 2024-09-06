@@ -5,11 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="main.css">
     <title>BTVN_lab1</title>  
-    <style>        
-        .submit-section {  
-            margin-top: 20px;  
-        }  
-    </style>  
 </head>  
 <body>  
     <div class="container">  
@@ -60,21 +55,22 @@
             </tr>  
         </table>
         <h2>Interests</h2>  
-        <p>I am interested in <strong>HCI</strong>, memes, and youtube videos.</p>  
+        <p>I am interested in <strong>HCI</strong>, memes, and YouTube videos.</p>  
 
         <div class="submit-section">  
             <h2>Submit Pet Information</h2>  
             <p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>  
             <form>  
-                <label for="name">Name:</label>  
+                <label for="name">Name <span class="textred">*</span>:</label>  
                 <input type="text" id="name" name="name" required> <br><br> 
-                <label for="phylum">Phylum:</label>  
-                <input type="text" id="phylum" name="phylum" required><br><br>  
+                <label for="age">Age <span class="textred">*</span>:</label>  
+                <input type="number" id="age" name="age" min="0" required><br><br>  
                 <label for="gender">Gender:</label>  
-                <input type="text" id="gender" name="gender" required><br><br>  
+                <input type="text" id="gender" name="gender"><br><br>  
                 <input type="submit" value="Submit">  
             </form>  
+            <p class="note">Fields marked with <span  class="textred">*</span> are required.</p>
         </div>  
     </div>  
 </body>  
-</html>  
+</html>
