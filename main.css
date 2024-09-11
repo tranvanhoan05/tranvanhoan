@@ -63,4 +63,7 @@ td{
 .note {
     font-size: 0.9em;
     color: gray;
-}     
+}
+.uline{
+    text-decoration: underline;
+}
