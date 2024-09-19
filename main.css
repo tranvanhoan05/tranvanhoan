@@ -17,6 +17,7 @@ h2 {
     background-color: white;  
     border-radius: 8px;  /* Giúp bo góc của web*/
     padding: 20px;
+    margin: 0px 100px;
     position: relative; /* Tác dụng để giúp định dạng đúng hình ảnh trong container */  
 }
 img {  
